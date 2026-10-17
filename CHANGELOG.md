@@ -2,7 +2,9 @@
 
 EJIS Terminal의 새 기능과 개선 사항을 버전별로 정리합니다. 설치 파일은 [최신 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)에서 확인합니다.
 
-## 0.1.11 · 배포 준비
+## 0.1.11 · 2026-10-17
+
+[설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.1.11)
 
 - 상단 메뉴, 세션 목록과 우클릭 메뉴, 사용 안내·협업 기록 탭에 미니멀 선 아이콘을 적용했습니다.
 - 설정 항목과 주요 동작 버튼에도 같은 스타일을 적용했습니다.
