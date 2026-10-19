@@ -2,7 +2,7 @@
 
 **cmux의 다중 세션 작업 방식과 사용 경험을 바탕으로, Juik Eom이 직접 사용하기 위해 기획·제작한 Windows 터미널입니다.** 여러 AI 작업을 한 화면에서 살펴보고, 세션마다 역할을 나누어 일할 수 있습니다.
 
-**[Windows 설치 파일 받기](https://github.com/brownailes/ejis-terminal/releases/latest)** · [처음 시작하기](#처음-시작하기) · [단축키](#단축키) · [변경 내역](CHANGELOG.md) · [문의하기](mailto:brownailes@gmail.com)
+**[Windows 설치 파일 받기](https://ejis-terminal-identity.vercel.app/download)** · [GitHub 배포본](https://github.com/brownailes/ejis-terminal/releases/latest) · [처음 시작하기](#처음-시작하기) · [단축키](#단축키) · [변경 내역](CHANGELOG.md) · [문의하기](mailto:brownailes@gmail.com)
 
 ![독립된 터미널 세 개를 나란히 배치한 EJIS Terminal](docs/images/02-workspace.png)
 
@@ -26,8 +26,8 @@
 
 ### 1. 설치 파일 받기
 
-1. **[최신 버전 페이지](https://github.com/brownailes/ejis-terminal/releases/latest)**를 엽니다.
-2. `Assets`에서 `EJIS-Terminal-버전-x64-setup.exe`를 받아 실행합니다. `Source code` 압축 파일은 설치 파일이 아닙니다.
+1. **[EJIS 다운로드 페이지](https://ejis-terminal-identity.vercel.app/download)**를 엽니다.
+2. **Windows x64 다운로드**로 설치 파일을 받아 실행합니다. [GitHub 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)의 `Assets`에서도 같은 설치 파일을 제공합니다. `Source code` 압축 파일은 설치 파일이 아닙니다.
 3. 설치 위치를 정하고 안내에 따라 설치합니다.
 4. 바탕화면의 **EJIS Terminal**을 실행합니다.
 
@@ -35,7 +35,7 @@
 
 ### 2. Windows 상태 확인하기
 
-앱이 시작되면 Thinking Orbs 애니메이션과 함께 Windows 업데이트 상태를 확인합니다. 필요한 업데이트나 재시작이 없으면 **Untitled 01** 세션으로 넘어갑니다. 세션을 우클릭해 작업에 맞게 이름을 바꿀 수 있습니다. 업데이트가 필요하면 안내에 따라 Windows 설정에서 설치한 뒤 다시 확인합니다.
+앱이 시작되면 Thinking Orbs 애니메이션과 함께 Windows 업데이트 상태를 확인합니다. 필요한 업데이트나 재시작이 없으면 Google 로그인 화면으로 넘어갑니다. 승인된 Google 계정으로 로그인하면 **Untitled 01** 세션이 열립니다. 세션을 우클릭해 작업에 맞게 이름을 바꿀 수 있습니다. 업데이트가 필요하면 안내에 따라 Windows 설정에서 설치한 뒤 다시 확인합니다.
 
 앱이 Windows 업데이트를 자동으로 설치하거나 PC를 재시작하지는 않습니다. 인터넷 연결, 업데이트 서비스, 조직의 정책에 따라 확인하지 못할 수 있습니다. 확인 대상은 Windows Update가 현재 제공하는 필수 소프트웨어 업데이트이며, 선택 업데이트나 드라이버는 제외합니다. 모든 PC가 동일한 Windows 버전이라는 뜻은 아닙니다.
 
