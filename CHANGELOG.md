@@ -2,6 +2,15 @@
 
 EJIS Terminal의 새 기능과 개선 사항을 버전별로 정리합니다. 설치 파일은 [최신 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)에서 확인합니다.
 
+## 0.3.0 · 2026-10-19
+
+[설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.3.0)
+
+- Google 로그인을 EJIS Terminal 전용 OAuth 클라이언트·서버·DB·쿠키·세션으로 분리했습니다.
+- 초기 허용 목록은 승인 이메일·이름만 일회성 참고하고, 이후 계정 권한은 EJIS에서 독립 관리합니다. 승인된 Google 계정만 사용할 수 있습니다.
+- 기존 서비스의 로그인 상태·명단 변경에 의존하지 않습니다. 이전 연결 경로는 종료하며, 업데이트 후 앱에서 다시 로그인합니다.
+- 로그인 디자인, 관리자 모드, 동의 기반 창 공유와 기존 설치·설정을 유지합니다.
+
 ## 0.2.2 · 2026-10-19
 
 [설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.2)
