@@ -2,6 +2,14 @@
 
 EJIS Terminal의 새 기능과 개선 사항을 버전별로 정리합니다. 설치 파일은 [최신 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)에서 확인합니다.
 
+## 0.2.2 · 2026-10-19
+
+[설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.2)
+
+- monday 로그인 화면과 동일하게 Hello, 인사와 초록색 점선의 + Google Login 버튼을 배치했습니다.
+- 같은 배경색, 글꼴, 크기와 간격을 적용하고 글꼴을 앱에 포함했습니다.
+- 승인 계정 제한과 기존 설치·설정을 유지하는 업데이트 방식을 유지합니다.
+
 ## 0.2.1 · 2026-10-19
 
 [설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.1)
