@@ -2,6 +2,17 @@
 
 EJIS Terminal의 새 기능과 개선 사항을 버전별로 정리합니다. 설치 파일은 [최신 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)에서 확인합니다.
 
+## 0.2.0 · 2026-10-19
+
+[설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.0)
+
+- monday에 등록·승인된 Google 계정으로 수업에 로그인합니다. 앱 로그인은 현재 실행에만 유지됩니다.
+- 교수님 관리자 모드에서 접속자를 선택해 EJIS Terminal 창을 읽기 전용으로 확인합니다. 학생에게 열람 안내와 공유 중지 기능을 제공합니다.
+- 로그인 뒤 Claude Code·Codex·Antigravity CLI를 공식 경로에서 자동으로 준비하고 설치 결과·재시도·실행 버튼을 제공합니다. 서비스별 본인 인증과 이용 권한은 별도입니다.
+- 각 세션 아래에 Codex 계정 전체 사용량을 표시합니다. 세션별 과금액이나 Claude Code·Antigravity 사용량은 포함하지 않습니다.
+- 한글 조합 중 단축키가 입력을 가로채지 않도록 보완했습니다. Windows 입력기·원격 연결에서의 실제 입력 확인은 별도로 진행합니다.
+- Windows PowerShell 설치 작업이 PowerShell 7의 모듈 환경을 물려받아 실패하는 문제를 방지했습니다.
+
 ## 0.1.11 · 2026-10-17
 
 [설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.1.11)
