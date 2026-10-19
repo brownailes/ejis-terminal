@@ -2,12 +2,21 @@
 
 EJIS Terminal의 새 기능과 개선 사항을 버전별로 정리합니다. 설치 파일은 [최신 릴리스](https://github.com/brownailes/ejis-terminal/releases/latest)에서 확인합니다.
 
+## 0.2.1 · 2026-10-19
+
+[설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.1)
+
+- 시작 화면에 Google 로그인 버튼 하나만 표시하고 학교·수업·교구 문구를 제거했습니다. 승인 계정 제한은 유지합니다.
+- 화면 공유를 로그인과 분리하고, 사용자가 공유를 선택해 확인한 경우에만 관리자가 EJIS Terminal 창을 확인하도록 했습니다.
+- 계정 패널은 AI 도구와 관리자 기능으로 구성합니다.
+- 한글·공백이 포함된 Windows 폴더의 Codex 실행 경로 인코딩 문제를 방지하고 실제 해당 경로에서 자동 설치를 검증합니다.
+
 ## 0.2.0 · 2026-10-19
 
 [설치 파일 및 배포 정보](https://github.com/brownailes/ejis-terminal/releases/tag/v0.2.0)
 
-- monday에 등록·승인된 Google 계정으로 수업에 로그인합니다. 앱 로그인은 현재 실행에만 유지됩니다.
-- 교수님 관리자 모드에서 접속자를 선택해 EJIS Terminal 창을 읽기 전용으로 확인합니다. 학생에게 열람 안내와 공유 중지 기능을 제공합니다.
+- monday에 등록·승인된 Google 계정으로 로그인합니다. 앱 로그인은 현재 실행에만 유지됩니다.
+- 관리자 모드에서 접속자를 선택해 EJIS Terminal 창을 읽기 전용으로 확인합니다. 사용자에게 열람 안내와 공유 중지 기능을 제공합니다.
 - 로그인 뒤 Claude Code·Codex·Antigravity CLI를 공식 경로에서 자동으로 준비하고 설치 결과·재시도·실행 버튼을 제공합니다. 서비스별 본인 인증과 이용 권한은 별도입니다.
 - 각 세션 아래에 Codex 계정 전체 사용량을 표시합니다. 세션별 과금액이나 Claude Code·Antigravity 사용량은 포함하지 않습니다.
 - 한글 조합 중 단축키가 입력을 가로채지 않도록 보완했습니다. Windows 입력기·원격 연결에서의 실제 입력 확인은 별도로 진행합니다.
